@@ -1,0 +1,84 @@
+.card__article {
+    background-color: rgb(119, 116, 112);
+    border-radius: 5px;
+    margin: 5PX;
+    height: 142px;
+    width: 255px;
+    padding: 5px;  
+    color: whitesmoke;
+}
+
+.card__name {
+    text-align: center;
+    text-transform: lowercase;
+}
+.card__last__name {
+    text-align: center;
+    text-transform: lowercase;
+}
+.card__name:first-line,
+.card__last__name:first-line {
+    text-transform: capitalize;
+}
+
+.card__hr {
+    border: none;
+    height: 2px;
+    background-color: pink;
+    width: 95%;
+}
+
+.card__list {
+    display: flex;
+    justify-content: space-around;
+    height: 38px;
+    align-items: center;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.card__field {
+ color: whitesmoke;
+
+}
+
+.card__field__info {
+    color: whitesmoke;
+    text-transform: lowercase;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 30px;
+}
+.card__delete {
+    margin: 5px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(63, 61, 61);
+    border-radius: 3px;
+}
+.card__update {
+    margin: 5px 10px 5px 5px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(63, 61, 61);
+    border-radius: 3px;
+}
+.card__delete:hover {
+    background-color: rgb(136, 3, 3);
+    transform: scale(1.3);
+    
+}
+
+.card__update:hover {
+    background-color: lightgrey;
+    transform: scale(1.3);
+}
